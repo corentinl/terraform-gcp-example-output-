@@ -22,17 +22,11 @@ Available output of the resource `google_compute_instance`
 
 # Write some tf configuration
 
-Open outputs.tf (or create it if non existent) in your text editor, and write the 2 required output
+Open outputs.tf (or create it if non existent) in your text editor, and write the required output
 ```hcl
 output "internal_instance_ip_addr" {
   //value = ?????
 }
-
-output "external_instance_ip_addr" {
-  //value = ?????
-}
-
-
 ```
 
 Complete this configuration appropriately.
